@@ -41,7 +41,7 @@ function App() {
        }
     return (
     <div className="App">
-      <header><h1>Bijapur's TodoList </h1> </header>
+      <header><h1> TodoList </h1> </header>
       <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} setStatus={setStatus}/>
       <TodoList todos={todos} setTodos={setTodos} filterTodos={filterTodos} />
     </div>
